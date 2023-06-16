@@ -1,0 +1,148 @@
+/* gogle fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-principal{
+    background: url('img-body.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+
+.image{
+    display: flex;
+}
+
+.image-1{
+    height: 50px;
+    border-radius: 50%;
+}
+
+#title-principal{
+    color: white;
+    margin-top: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#title-principal:hover{
+    color: brown;
+    transition: 2s;
+}
+
+.menu-itens a{
+    font-size: 1.0em;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu-itens{
+    display: flex;
+    gap: 10px;
+}
+
+.menu-itens a:hover{
+    color: brown;
+    transition: 2s;
+}
+
+.bi-search,
+.bi-cart3{
+    font-size: 25px;
+    color: white;
+}
+
+.bi-search:hover{
+    color: brown;
+    transition: 2s;
+}
+
+.bi-cart3:hover{
+    color: brown;
+    transition: 2s;
+}
+
+.icons-page{
+    display: flex;
+    gap: 25px;
+}
+
+.conteudo-pagina{
+    width: 490px;
+    height: 500px;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+#name-primary{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+}
+
+h1::after{
+    content:'|';
+    margin-left: 5px;
+    opacity: 1;
+    animation:pisca .7s infinite;
+    
+}
+
+@keyframes pisca{
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
+#name-secondary{
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+#text-description{
+    color: white;
+    font-size: 1.2em;
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn{
+    width: 130px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(97, 63, 20);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 18px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn{
+    box-shadow:2px 3px 4px burlywood;
+}
